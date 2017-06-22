@@ -44,7 +44,7 @@ var student3 = 'Fenchurch';
 ```
 
 But that's not very flexible.  You'd need to know how many students you
-had upfront, and to add more,  you'd have to edit the code.  It wouldn't
+had up front, and to add more,  you'd have to edit the code.  It wouldn't
 be very useful if the schools admissions team had to edit the code
 every time they wanted to enrol a new student!
 
@@ -266,18 +266,10 @@ function addStudent(name) {
 Save, and refresh the page.  Now when you add students, no matter
 how many you add, you'll see something happening.
 
-## Other stuff
-
-Arrays can do lots of things, probably enough to keep us going for
-a couple of weeks of lessons.  A good resource is the
-[Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).  Beware though, there are quite a few advanced
-concepts in there.
-
 ## Sorting
 
-For this lesson though, we'll look at one more method - the `sort`
-method.  The simplest form of this method just sorts the array
-in alphabetical order.
+Let's look at one more method - the `sort` method.  The simplest
+form of this method sorts the array in alphabetical order.
 
 Try it in the debug console:
 
@@ -303,3 +295,13 @@ function sortStudents() {
 
 Again, save and refresh the browser. Add a bunch of students,
 and click sort.  They'll all go into order!
+
+## Other stuff
+
+Arrays can do lots of things, probably enough to keep us going for
+a couple of weeks of lessons.  A good resource is the
+[Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+Feel free to go and take a look at the things we've discussed today,
+but beware, there are quite a few advanced concepts in the
+documentation, and you shouldn't worry if you don't understand
+them yet.
