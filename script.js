@@ -8,33 +8,30 @@
 
 // make an array to hold a list of students
 // TASK 1: put some student's names in here to start with
-var students = [
-  'Arthur Dent',
-  'Zaphod Beeblebrox'
-];
+var students = [];
 
 // this function will be called when showing the list
 // TASK 2: complete the function to return the student at position i in the list
 function getStudent(i) {
-  return students[i];
+  
 }
 
 // TASK 3: change the function to get the real number of students
 function getNumberOfStudents() {
-  return students.length;
+  return 0;
 }
 
 // this function will be called when the "Add" button is clicked
 // TASK 4: complete the function to add the student to our array above
 // TASK 5: change the function to add the student to the beginning of the array
 function addStudent(name) {
-  students.unshift(name);
+  
 }
 
 // this function will be called when the "Sort" button is clicked
 // TASK 6: complete the function to sort the students array
 function sortStudents() {
-  students.sort();
+  
 }
 
 
