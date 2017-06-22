@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <!-- document setup stuff goes here -->
+  <head>
+    <!-- let's give the page a title (shows in the browser tab) -->
+    <title>Arrays lesson</title>
+
+    <!-- bring in some styles to make it look more pleasant (more on this next week!) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  </head>
+
+  <!-- the contents of the page goes here-->
+  <body class="p-4">
+    <h1>Students</h1>
+
+    <!-- a little form for adding more students -->
+    <form class="form-inline my-4" id="addStudentForm">
+      <input type="text" class="form-control mr-2" placeholder="student's name" id="nameInput">
+      <button role="submit" class="btn btn-primary">Add</button>
+    </form>
+
+    <!-- add a button to sort the list -->
+    <button class="btn btn-secondary mb-4" role="button" id="sortButton">Sort</button>
+
+    <p><small class='text-muted' id='studentCount'></small></p>
+
+    <!-- a list to show the students -->
+    <ul class="list-group" id="studentList">
+    </ul>
+
+    <!-- add the script -->
+    <script src="script.js"></script>
+  </body>
+</html>
